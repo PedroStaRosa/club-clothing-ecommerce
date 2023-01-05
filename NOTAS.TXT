@@ -6,3 +6,10 @@
 	yarn eslint --init (style , esm , react, yes, browser e node guide, standard, JSON, yes)
 	yarn add -D prettier-config-standard
 	criar arquivo .prettierrc.json = "prettier-confing-standard"
+
+#configurar husk e lint-staged para correção do codigo antes de efetuar commints
+	yarn add -D husky lint-staged
+	"husk:prepare" : "husk install"
+	.lintstagedrc.json (reliazar configuração para quais arquivos - procurar exemplos - )
+	yarn husky:prepare
+	npx husky add .husky/pre-commit "yarn lint-staged"
