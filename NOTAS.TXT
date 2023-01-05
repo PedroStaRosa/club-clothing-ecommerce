@@ -1,0 +1,8 @@
+# criar projeto react typescript 
+	yarn create react-app --template typescript .
+
+# configuração eslint e preetier ( identação padronização de codigo )
+	yarn add -D eslint
+	yarn eslint --init (style , esm , react, yes, browser e node guide, standard, JSON, yes)
+	yarn add -D prettier-config-standard
+	criar arquivo .prettierrc.json = "prettier-confing-standard"
