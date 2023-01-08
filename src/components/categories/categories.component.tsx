@@ -23,7 +23,7 @@ const Categories = () => {
           id: 'cat01',
           name: 'sneakers',
           imageUrl:
-            'https://images.unsplash.com/photo-1565814636199-ae8133055c1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+            'https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c25lYWtlcnN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
           displayName: 'Tênis'
         },
         {
@@ -37,7 +37,7 @@ const Categories = () => {
           id: 'cat03',
           name: 'jackets',
           imageUrl:
-            'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8amFja2V0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+            'https://images.unsplash.com/photo-1601924994987-69e26d50dc26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8amFja2V0fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
           displayName: 'Jaquetas'
         },
         {
@@ -51,7 +51,7 @@ const Categories = () => {
           id: 'cat05',
           name: 'male',
           imageUrl:
-            'https://images.unsplash.com/photo-1573198721163-e9b0d696456f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1hbGUlMjBjbG90aHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+            'https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fG1lbidzJTIwY2xvdGhpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
           displayName: 'Masculino'
         }
       ]
