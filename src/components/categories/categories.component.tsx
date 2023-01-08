@@ -9,7 +9,6 @@ import Category from '../../types/category.types'
 /* import env from '../../config/env.config' */
 
 // Styles
-import './categories.style.css'
 import { CategoriesContainer, CategoriesContent } from './category.styles'
 
 const Categories = () => {

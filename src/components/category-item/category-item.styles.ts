@@ -11,7 +11,6 @@ export const CategoryItemContainer = styled.div<CategoryItemProps>`
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: ${Colors.background.red};
   background-image: url(${(props) => props.categoryImage});
   grid-gap: 15px;
   background-size: cover;
@@ -31,7 +30,7 @@ export const CategoryName = styled.div`
   padding-right: 30px;
   padding-left: 30px;
   border-radius: 10px;
-  border: 1px solid #212529;
+  border: 1px solid ${Colors.primary};
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: all 0.5s ease;
 

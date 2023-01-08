@@ -6,8 +6,7 @@ const Colors = {
   },
   background: {
     dark: '#212529',
-    white: '#f8f9fa',
-    red: 'red'
+    white: '#f8f9fa'
   },
   input: {
     background: '#E9ECEF',
