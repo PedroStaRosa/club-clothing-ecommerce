@@ -12,7 +12,7 @@ const Colors = {
     background: '#E9ECEF',
     placeholder: '6C757D'
   },
-  erro: '#ff6a6a'
+  error: '#ff6a6a'
 }
 
 export default Colors
