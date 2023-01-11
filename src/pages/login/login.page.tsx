@@ -18,12 +18,17 @@ import {
   LoginContent
 } from './login.styles'
 
+interface LoginForm {
+  email: string
+  password: string
+}
+
 const LoginPage = () => {
   const {
     register,
     handleSubmit,
     formState: { errors }
-  } = useForm()
+  } = useForm<LoginForm>()
 
   const handleLoginPress = (data: any) => {
     console.log({ data })
