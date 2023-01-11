@@ -1,5 +1,6 @@
 import { FunctionComponent } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import SignUpPage from './pages/sign-up/sign-up.page'
 
 // Pages
 import HomePage from './pages/home/home.page'
@@ -11,6 +12,7 @@ const App: FunctionComponent = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/sign-up" element={<SignUpPage />} />
       </Routes>
     </BrowserRouter>
   )

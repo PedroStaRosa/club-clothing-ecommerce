@@ -13,14 +13,20 @@ const Header = () => {
   const handleLoginClick = () => {
     navigate('/login')
   }
+  const handleCreateAcountClick = () => {
+    navigate('/sign-up')
+  }
+  const handleExploreClick = () => {
+    navigate('/')
+  }
   return (
     <HeaderContainer>
       <HeaderTitle>CLUB CLOTHING</HeaderTitle>
 
       <HeaderItems>
-        <HeaderItem>Explorar</HeaderItem>
+        <HeaderItem onClick={handleExploreClick}>Explorar</HeaderItem>
         <HeaderItem onClick={handleLoginClick}>Login</HeaderItem>
-        <HeaderItem>Criar Conta</HeaderItem>
+        <HeaderItem onClick={handleCreateAcountClick}>Criar Conta</HeaderItem>
         <HeaderItem>
           <BsCart3 size={25} />
           <p style={{ marginLeft: 5 }}>5</p>
