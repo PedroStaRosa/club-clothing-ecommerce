@@ -1,17 +1,21 @@
+import { useState } from 'react'
+import { FiLogIn } from 'react-icons/fi'
+import { useForm } from 'react-hook-form'
+import validator from 'validator'
+
+// Components
+import InputErrorMessage from '../../components/input-error-message/input-error-message.component'
 import CustomButton from '../../components/custom-button/custom-buttom.component'
 import CustomInput from '../../components/custom-input/custom-input.component'
 import Header from '../../components/header/header.components'
+
+// Styles
 import {
   SignUpContainer,
   SignUpContent,
   SignUpHeadline,
   SignUpInputContainer
 } from './sign-up.styles'
-import { FiLogIn } from 'react-icons/fi'
-import { useForm } from 'react-hook-form'
-import validator from 'validator'
-import InputErrorMessage from '../../components/input-error-message/input-error-message.component'
-import { useState } from 'react'
 
 interface SignUpForm {
   name: string
